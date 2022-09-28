@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  image-rendering: pixelated;
+}
+
+img {
+  image-rendering: auto;
+  /* image-rendering: -webkit-optimize-contrast; */
+}
+
+.photon-green-glassmorphism {
+  background: rgba(25, 114, 120, 0.05);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
